@@ -50,9 +50,11 @@ while True:
     ip=input("Enter the website you want to ping ")
     s.send(ip.encode())
     print(s.recv(1024).decode())
+ ```
 OUTPUT :
 
 ![image](https://github.com/VaishaliBalamurugan22008813/EX-6/assets/119390134/2adb7fb4-c8eb-4354-ad51-2523f4274747)
+
 ![image](https://github.com/VaishaliBalamurugan22008813/EX-6/assets/119390134/2e47facb-8a13-4af0-8cca-86c9d41f55b8)
 
 
